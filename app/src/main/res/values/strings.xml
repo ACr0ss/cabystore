@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CabifyStore</string>
+    <string name="no_internet">This app needs internet connection the first time you use it</string>
+    <string name="no_internet_warning">There is no internet connection, keep this in mind please</string>
+    <string name="error">Something went wrong…</string>
+    <string name="total">Total: %1$s€</string>
+    <string name="empty_cart">Empty cart</string>
+    <string name="x_quantity">x%1$d</string>
+    <string name="promo_2x1">(2x1 promo)</string>
+    <string name="promo_savings">You saved %1$d€ in %2$s</string>
+
+</resources>

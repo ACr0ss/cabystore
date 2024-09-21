@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:layout_weight="70"
+        android:layout_height="wrap_content"
+        tools:text="Cabify Voucher"
+        android:textColor="@color/cabify"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_quantity"
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        tools:text="x5"
+        android:textColor="@color/cabify"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_sum"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        tools:text="105.00€"
+        android:textColor="@color/cabify"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
